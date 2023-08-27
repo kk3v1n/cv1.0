@@ -1,0 +1,144 @@
+.total-content {
+  min-height: 450vh;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  width: 70%;
+}
+
+.temp-hide {
+  visibility: hidden;
+}
+
+section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+h2{
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+h2:after {
+  display: block;
+  position: relative;
+  background: black;
+  height: 2px;
+  content: '';
+  width: 400px;
+  margin-left: 20px;
+}
+
+/* NavBar */
+
+.navbar-overall-padding{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* First Page */
+
+.intro-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  flex-direction: column; 
+}
+
+.intro-h{
+  font-weight: 700;
+  font-size: 7vw;
+}
+
+.intro-p {
+  font-weight: 300;
+  font-size: 4vw;
+}
+
+
+/* Second Page */
+
+.about-me-p{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 2rem;
+}
+.my-img-section{
+  display: flex;
+  justify-content: center;
+}
+
+.my-img{
+  max-width: 100%;  
+  height: auto;  
+}
+
+/* Third Page */
+
+.list-group-item{
+  font-size: 20px;
+}
+
+.job-title{
+  font-weight: 700;
+}
+
+/* Fourth Page */
+
+.card{
+  margin:2%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.other-projects{
+  padding-top: 10%;
+}
+
+/* Fifth Page */
+
+.skills-p{
+  font-size: 20px;
+}
+
+
+/* Sixth Page */
+
+#contact-section{
+  text-align: center;
+  display: block;
+}
+
+#contact-section h2{
+  display: block;
+}
+
+#contact-section h2:after{
+  display: none !important;
+}
+
+.contract-p{
+  font-size: 20px;
+}
+
+
+
+/* 
+ *
+
+
+*/
+
+/*email button*/
+
+.email-button{
+  margin: 1rem;
+}
